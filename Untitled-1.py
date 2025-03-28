@@ -87,13 +87,13 @@ print("keyword counts:", keyword_counts)
 # Write your function for Gross Profit Margin
 #defining gross profit margin 
 def gross_profit_margin(revenue, cost_of_goods_sold):
-    """Calculate Gross Profit Margin as a percentage."""
-    # Check if revenue is not zero to avoid division by zero error
+    """calculate Gross Profit Margin as a percentage."""
+    # check if revenue is not zero to avoid division by zero error
     if revenue == 0 :
         return 0
-    # Calculate gross profit
+    # calculate gross profit
     gross_profit = revenue - cost_of_goods_sold
-    # Return gross profit margin as a percentage
+    # return gross profit margin as a percentage
     return (gross_profit / revenue) * 100
 
 
@@ -116,7 +116,7 @@ def customer_retention_rate(customers_at_start, customers_at_end):
     # Check if customers at start is not zero to avoid division by zero error
     if customers_at_start == 0:
         return 0
-    # Calculate customer retention rate
+    # calculate customer retention rate
     return (customers_at_end  / customers_at_start) * 100
 
 
@@ -127,7 +127,7 @@ def break_even_analysis(fixed_costs, selling_price_per_unit, variable_cost_per_u
     # checking if selling price per unit is not equal to variable cost per unit to avoid division by zero error
     if selling_price_per_unit - variable_cost_per_unit == 0 :
         return float('inf')  #float represents infinity
-    # Calculate break-even point
+    # calculate break-even point
     return fixed_costs / (selling_price_per_unit - variable_cost_per_unit)
 
 # Call your functions here
@@ -220,7 +220,7 @@ plt.legend()
 plt.grid()
 plt.show()
 
-# Output generated 
+# output generated 
 
 ##########################################################################################################################################################
 
