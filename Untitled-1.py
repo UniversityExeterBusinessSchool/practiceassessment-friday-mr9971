@@ -146,7 +146,7 @@ variable_cost_per_unit = 76
 
 # initializing the functions to define and calculate the gorss proft margin, inventory, customer rate and break-even analysis
 print ("gross profit margin is:", gross_profit_margin(revenue, cost_of_goods_sold))
-print ("inventory turnover is:", inventory_turnover(cost_of_goods_sold, average_inventory))
+print ("inventory is:", inventory_turnover(cost_of_goods_sold, average_inventory))
 print ("customer retention rate is:", customer_retention_rate(customers_at_start, customers_at_end))
 print ("break-even analysis is:", break_even_analysis(fixed_costs, selling_price_per_unit, variable_cost_per_unit))
 
